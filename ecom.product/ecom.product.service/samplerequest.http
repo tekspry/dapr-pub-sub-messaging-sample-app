@@ -1,0 +1,2 @@
+Get http://localhost:3501/product/
+dapr-app-id: product

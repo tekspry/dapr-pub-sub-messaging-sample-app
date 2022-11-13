@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Dapr.AspNetCore" Version="1.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\ecom.order.database\ecom.order.database.csproj" />
     <ProjectReference Include="..\ecom.order.domain\ecom.order.domain.csproj" />
     <ProjectReference Include="..\ecom.order.infrastructure\ecom.order.infrastructure.csproj" />

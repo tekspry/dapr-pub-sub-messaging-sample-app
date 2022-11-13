@@ -1,7 +1,6 @@
 ﻿using ecom.product.domain.Product;
 using Dapr.Client;
 using Microsoft.Extensions.Logging;
-using Microsoft.AspNetCore.Http;
 
 namespace ecom.product.database.ProductDB
 {

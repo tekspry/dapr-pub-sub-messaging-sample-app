@@ -9,6 +9,6 @@ namespace ecom.order.database.order
 {
     public interface IOrderRepository
     {
-        Task<string> CreateOrder(Order order);
+        Task<Order> CreateOrder(Order order);        
     }
 }

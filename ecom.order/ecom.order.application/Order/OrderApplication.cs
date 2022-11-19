@@ -31,8 +31,8 @@ namespace ecom.order.application.Order
             await _orderRepository.CreateOrder(order);
             logger.LogInformation($"order created for: {order.OrderId}");
 
-            await _daprClient.PublishEventAsync("daprpubsub", "orders", order);
-            logger.LogInformation($"order published for: {order.OrderId}");
+            await _daprClient.PublishEventAsync("orderpubsub", "orders", order);
+            logger.LogInformation($"order published to orderpubsub component for: {order.OrderId}");
 
             return order;
         }

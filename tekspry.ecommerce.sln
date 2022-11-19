@@ -19,15 +19,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ecom.product.service", "eco
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Order", "Order", "{D47976C1-797E-43B8-A35A-685326E4F840}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ecom.order.database", "ecom.order\ecom.order.database\ecom.order.database.csproj", "{EC068A1F-1FCC-41F6-A2FA-5A9D5A0E15B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ecom.order.database", "ecom.order\ecom.order.database\ecom.order.database.csproj", "{EC068A1F-1FCC-41F6-A2FA-5A9D5A0E15B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ecom.order.application", "ecom.order\ecom.order.application\ecom.order.application.csproj", "{7ED87AF1-5F7E-44D8-A88F-26CFF0579691}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ecom.order.application", "ecom.order\ecom.order.application\ecom.order.application.csproj", "{7ED87AF1-5F7E-44D8-A88F-26CFF0579691}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ecom.order.service", "ecom.order\ecom.orderservice\ecom.order.service.csproj", "{4CA50239-EDE0-408D-9DD0-A9D21D6E699F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ecom.order.service", "ecom.order\ecom.orderservice\ecom.order.service.csproj", "{4CA50239-EDE0-408D-9DD0-A9D21D6E699F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ecom.order.domain", "ecom.order\ecom.order.domain\ecom.order.domain.csproj", "{D829CBB8-4445-4D41-95ED-A79DA5E14DF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ecom.order.domain", "ecom.order\ecom.order.domain\ecom.order.domain.csproj", "{D829CBB8-4445-4D41-95ED-A79DA5E14DF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ecom.order.infrastructure", "ecom.order\ecom.order.infrastructure\ecom.order.infrastructure.csproj", "{4A314BCA-60E8-41D9-AF9E-8047E550EFA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ecom.order.infrastructure", "ecom.order\ecom.order.infrastructure\ecom.order.infrastructure.csproj", "{4A314BCA-60E8-41D9-AF9E-8047E550EFA5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notification", "Notification", "{BB6073A7-FA51-4774-81B3-390F9DB8BB47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Payment", "Payment", "{00C12D60-C90B-4443-95F7-668E24DC4577}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ecom.payment.service", "ecom.payment\ecom.payment.service\ecom.payment.service.csproj", "{BD70A44D-BC1F-4DF3-87BE-1E25A8476FFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ecom.payment.domain", "ecom.payment\ecom.payment.domain\ecom.payment.domain.csproj", "{229C498B-D238-410F-A267-E55C7D845896}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ecom.notification.domain", "ecom.notification\ecom.notification.domain\ecom.notification.domain.csproj", "{2ACEE390-C8D2-48D1-81CA-DD504F166722}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ecom.notification.service", "ecom.notification\ecom.notification.service\ecom.notification.service.csproj", "{0DE44EFA-05E8-449C-AC86-137007C5E34D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +87,22 @@ Global
 		{4A314BCA-60E8-41D9-AF9E-8047E550EFA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A314BCA-60E8-41D9-AF9E-8047E550EFA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A314BCA-60E8-41D9-AF9E-8047E550EFA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD70A44D-BC1F-4DF3-87BE-1E25A8476FFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD70A44D-BC1F-4DF3-87BE-1E25A8476FFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD70A44D-BC1F-4DF3-87BE-1E25A8476FFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD70A44D-BC1F-4DF3-87BE-1E25A8476FFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{229C498B-D238-410F-A267-E55C7D845896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{229C498B-D238-410F-A267-E55C7D845896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{229C498B-D238-410F-A267-E55C7D845896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{229C498B-D238-410F-A267-E55C7D845896}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ACEE390-C8D2-48D1-81CA-DD504F166722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ACEE390-C8D2-48D1-81CA-DD504F166722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ACEE390-C8D2-48D1-81CA-DD504F166722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ACEE390-C8D2-48D1-81CA-DD504F166722}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DE44EFA-05E8-449C-AC86-137007C5E34D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DE44EFA-05E8-449C-AC86-137007C5E34D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DE44EFA-05E8-449C-AC86-137007C5E34D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DE44EFA-05E8-449C-AC86-137007C5E34D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +118,10 @@ Global
 		{4CA50239-EDE0-408D-9DD0-A9D21D6E699F} = {D47976C1-797E-43B8-A35A-685326E4F840}
 		{D829CBB8-4445-4D41-95ED-A79DA5E14DF1} = {D47976C1-797E-43B8-A35A-685326E4F840}
 		{4A314BCA-60E8-41D9-AF9E-8047E550EFA5} = {D47976C1-797E-43B8-A35A-685326E4F840}
+		{BD70A44D-BC1F-4DF3-87BE-1E25A8476FFE} = {00C12D60-C90B-4443-95F7-668E24DC4577}
+		{229C498B-D238-410F-A267-E55C7D845896} = {00C12D60-C90B-4443-95F7-668E24DC4577}
+		{2ACEE390-C8D2-48D1-81CA-DD504F166722} = {BB6073A7-FA51-4774-81B3-390F9DB8BB47}
+		{0DE44EFA-05E8-449C-AC86-137007C5E34D} = {BB6073A7-FA51-4774-81B3-390F9DB8BB47}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4B8FE7B4-3310-4A67-BFB5-AF00072220BE}

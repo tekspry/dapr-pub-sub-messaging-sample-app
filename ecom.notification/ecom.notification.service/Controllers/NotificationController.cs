@@ -15,10 +15,10 @@ namespace ecom.notification.service.Controllers
             this.logger = logger;
         }
         [HttpPost("", Name = "SubmitOrder")]
-        [Topic("daprpubsub", "orders")]
+        [Topic("orderpubsub", "payments")]
         public async Task<IActionResult> Submit(Order order)
         {
-            logger.LogInformation($"Notification service received for new order: {order.OrderId} message");
+            logger.LogInformation($"Notification service received for new order: {order.OrderId} message from payment service");
             logger.LogInformation($"Order Details --> Product: {order.ProductId}, Product Quantity: {order.ProductCount}, Price: {order.OrderPrice}");
 
             return Ok();

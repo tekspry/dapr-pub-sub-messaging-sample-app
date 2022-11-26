@@ -17,6 +17,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseRouting();
+
 app.UseCloudEvents();
 
 app.UseHttpsRedirection();

@@ -1,6 +1,5 @@
 ﻿using Dapr;
 using ecom.notification.domain.Order;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ecom.notification.service.Controllers

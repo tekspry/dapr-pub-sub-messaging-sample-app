@@ -1,4 +1,4 @@
-# Dapr Service Invocation Sample Application
+# Dapr Pub Sub Building Block Sample Application
 
 This application is intended to demonstrate the basics of using Dapr Pub/ Sub building block for distributed application. It is a demo project for blog series Demystifying Dapr, by Gagan Bajaj.
 
